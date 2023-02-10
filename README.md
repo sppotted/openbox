@@ -7,10 +7,17 @@ Debian openbox
 sudo nano /etc/apt/sources.list
 ```
 
-At the end of the url's write
+At the end of each url write
 
 ```
 contrib non-free
+```
+
+At the bottom ad the media repository
+
+```
+# Multimedia Repository
+deb http://www.deb-multimedia.org bullseye main nonfree
 ```
 
 ```
