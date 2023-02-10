@@ -1,7 +1,7 @@
 # openbox
 Debian openbox
 
-#Edit apt sources
+# Edit apt sources
 
 ```
 sudo nano /etc/apt/sources.list
@@ -16,8 +16,15 @@ contrib non-free
 At the bottom ad the media repository
 
 ```
-# Multimedia Repository
+# Multimedia Repo
 deb http://www.deb-multimedia.org bullseye main nonfree
+```
+
+Below that
+
+```
+# Backports Repo
+deb http://ftp.debian.org/debian bullseye-backports main non-free
 ```
 
 ```
