@@ -4,7 +4,7 @@ Debian openbox
 me guie de
 (La Garza Resistente)[https://www.youtube.com/watch?v=uLQTvjzd2gI]
 
-# Edit apt sources
+Edit apt sources
 
 ```
 sudo nano /etc/apt/sources.list
@@ -49,9 +49,30 @@ neofetch
 htop
 
 xorg
-
-openbox
-
+```
+Install openbox
+``` 
+sudo apt install openbox obconf openbox-menu tint2 rxvt thunar nitrogen leafpad firefox-esr
+openbox #window manager
+obconf #openbox config
+openbox-menu #openbox menu autorefresh
+tint2 # system bar
+rxvt # terminal emulator
+thunar # file manager
+nitrogen # wallpaper
+leafpad # text editor
+firefox-esr # web browser
+```
+Install session manager (Ly)[https://github.com/fairyglade/ly]
+```
+sudo apt install git
+git clone --recurse-submodules https://github.com/fairyglade/ly
+cd ly
+make
+make install installsystemd
+systemctl enable ly.service
+```
+```
 urxvt
 
 rofi
