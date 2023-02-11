@@ -52,18 +52,27 @@ xorg
 ```
 Install openbox
 ``` 
-sudo apt install openbox obconf openbox-menu tint2 rxvt thunar nitrogen leafpad firefox-esr
+sudo apt install openbox obconf openbox-menu tint2 rxvt thunar nitrogen pulseaudio arandr gsimplecal picom lxpolkit firefox-esr
 openbox #window manager
 obconf #openbox config
 openbox-menu #openbox menu autorefresh
-tint2 # system bar
 rxvt # terminal emulator
-thunar # file manager
+arandr # screen resolution
+pulseaudio # sytem audio
+tint2 # system bar
 nitrogen # wallpaper
-leafpad # text editor
+picom # ui effects
+lxpolkit # gui security policy
+network-manager-gnome # internet & wifi
+thunar # file manager
+
+leafpad or litexl # text editor (need a easier option)
+
+gsimplecal # simple calendar
+galculator # calculator
 firefox-esr # web browser
 ```
-Install session manager (Ly)[https://github.com/fairyglade/ly]
+Install session manager [Ly](https://github.com/fairyglade/ly)
 ```
 sudo apt install git
 git clone --recurse-submodules https://github.com/fairyglade/ly
