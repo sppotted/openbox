@@ -59,6 +59,7 @@ openbox-menu #openbox menu autorefresh
 rxvt # terminal emulator
 arandr # screen resolution
 pulseaudio # sytem audio
+pnmixer # audio volume
 tint2 # system bar
 nitrogen # wallpaper
 picom # ui effects
