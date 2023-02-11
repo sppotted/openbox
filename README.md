@@ -37,9 +37,11 @@ sudo apt update -oAcquire::AllowInsecureRepositories=true
 
 sudo apt install deb-multimedia-keyring
 ```
-
+Firmware problems? check [debian guide](https://www.debian.org/releases/bullseye/i386/ch06s04.en.html)
 
 ```
+firmware-linux
+
 mesa-utils
 
 nano
@@ -65,11 +67,16 @@ picom # ui effects
 lxpolkit # gui security policy
 network-manager-gnome # internet & wifi
 thunar # file manager
+thunar-archive-plugin #
+lxappearance # lxde theme switcher
+xarchiver # archive manager
+p7zip-full p7zip-rar rar unrar unzip unace bzip2 # archive format
 
 leafpad or litexl # text editor (need a easier option)
 
 gsimplecal # simple calendar
 galculator # calculator
+feh or eog # image viewer
 firefox-esr # web browser
 ```
 Install session manager [Ly](https://github.com/fairyglade/ly)
