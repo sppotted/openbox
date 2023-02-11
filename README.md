@@ -51,6 +51,8 @@ xorg
 Install openbox
 ``` 
 sudo apt install openbox obconf openbox-menu tint2 rxvt thunar nitrogen pulseaudio arandr gsimplecal picom lxpolkit firefox-esr
+```
+```
 openbox #window manager
 obconf #openbox config
 openbox-menu #openbox menu autorefresh
@@ -77,12 +79,12 @@ firefox-esr # web browser
 ```
 Install session manager [Ly](https://github.com/fairyglade/ly)
 ```
-sudo apt install git
+sudo apt install build-essential libpam0g-dev libxcb-util-dev git
 git clone --recurse-submodules https://github.com/fairyglade/ly
 cd ly
 make
-make install installsystemd
-systemctl enable ly.service
+sudo make install installsystemd
+sudo systemctl enable ly
 ```
 ```
 urxvt
